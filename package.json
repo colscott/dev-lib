@@ -4,14 +4,7 @@
   "description": "development settings and tools that can be shared between repos",
   "main": ".eslintrc.js",
   "dependencies": {
-    "eslint": "^5.3.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-config-colscott": "^1.0.2",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.18.2"
+    "eslint-config-colscott": "^1.0.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
