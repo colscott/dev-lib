@@ -5,8 +5,9 @@
   "main": ".eslintrc.js",
   "dependencies": {
     "eslint-config-colscott": "^1.0.3",
-    "prettier": "1.12.1",
-    "prettylint": "^1.0.0"
+    "prettier": "^1.18.2",
+    "prettylint": "^1.0.0",
+    "prettier-eslint": "^9.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
