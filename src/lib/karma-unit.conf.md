@@ -3,11 +3,11 @@ This is a centralized, shared, configuration for Karma based unit testing. You c
 
 # Installation
 
-    npm install --save-dev core-dev-colscott
+    npm install --save-dev dev-colscott
 
 Create a file called karam-unit.conf.js in the root of the project and copy the following into it:
 
-    module.exports = require('./node_modules/core-dev-colscott/src/lib/karma-unit.conf.js');
+    module.exports = require('./node_modules/dev-lib-colscott/src/lib/karma-unit.conf.js');
 
 # Usage
 
