@@ -7,7 +7,10 @@
     "eslint-config-colscott": "^1.0.3",
     "prettier": "^1.18.2",
     "prettylint": "^1.0.0",
-    "prettier-eslint": "^9.0.0"
+    "prettier-eslint": "^9.0.0",
+    "karma": "^4.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^2.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
