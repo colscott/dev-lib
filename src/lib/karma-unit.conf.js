@@ -8,12 +8,7 @@ module.exports = function conf(config) {
 
         // frameworks to use
         // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-        frameworks: ['jasmine'],
-
-        proxies: {
-            // Load external module taht are imported using absolute paths
-            '/node_modules/': `/base/node_modules/`,
-        },
+        frameworks: ['jasmine', 'esm'],
 
         // list of files / patterns to load in the browser
         files: [
@@ -32,6 +27,18 @@ module.exports = function conf(config) {
                 included: false,
             },
         ],
+
+        plugins: [
+            require.resolve('@open-wc/karma-esm'),
+         
+            // fallback: resolve any karma- plugins
+            'karma-*',
+        ],
+
+        esm: {
+            // if you are using 'bare module imports' you will need this option
+            nodeResolve: true,
+        },
 
         // list of files / patterns to exclude
         exclude: [],
