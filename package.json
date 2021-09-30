@@ -4,13 +4,13 @@
   "description": "development settings and tools that can be shared between repos",
   "main": ".eslintrc.js",
   "dependencies": {
-    "@open-wc/karma-esm": "^2.13.0",
+    "@open-wc/karma-esm": "^4.0.0",
     "eslint-config-colscott": "^1.0.3",
-    "karma": "^4.1.0",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-jasmine": "^2.0.1",
-    "prettier": "^1.18.2",
-    "prettier-eslint": "^9.0.0",
+    "karma": "^6.3.4",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "prettier": "^2.4.1",
+    "prettier-eslint": "^13.0.0",
     "prettylint": "^1.0.0"
   },
   "scripts": {
